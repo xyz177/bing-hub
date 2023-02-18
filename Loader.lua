@@ -1,6 +1,6 @@
 if game.PlaceId == 8571687919 then
-loadstring(game:HttpGet(""))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/unofficial.lua"))()
 end 
 if game.PlaceId == 12017032683 then
-loadstring(game:HttpGet(""))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/unofficial.lua"))()
 end
