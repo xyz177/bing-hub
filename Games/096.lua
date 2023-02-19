@@ -36,4 +36,4 @@ end)
 MiscSection:NewKeybind("UI Key", "key", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
-end
+
