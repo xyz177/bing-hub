@@ -1,3 +1,6 @@
+if game.PlaceId == 12017032683 then
+
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("bing chilling | 096", "GrapeTheme")
 
@@ -35,3 +38,4 @@ end)
 MiscSection:NewKeybind("UI Key", "key", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
+end
