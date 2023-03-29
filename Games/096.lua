@@ -11,6 +11,10 @@ TeleportSection:NewButton("bunker outside", "ButtonInfo", function()
     	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(335.0155334472656, 302.1949462890625, 569.10693359375)
 end)
 
+TeleportSection:NewButton("bunker inside", "ButtonInfo", function()
+    	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1155.1910400390625, -63.2086067199707, -581.080810546875)
+end)
+
 TeleportSection:NewButton("fishing dock", "ButtonInfo", function()
     	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-485.17022705078125, 150.72828674316406, 1309.5987548828125)
 end)
