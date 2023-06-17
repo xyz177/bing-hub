@@ -18,7 +18,7 @@ Duration = 4;
 wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/096.lua"))()
 
-if game.PlaceId == (8482713490) then
+elseif game.PlaceId == (8482713490) then
 game.StarterGui:SetCore("SendNotification", {
 Title = "Bing Hub";
 Text = "Forgotten Memories";
