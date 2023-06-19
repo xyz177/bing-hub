@@ -7,6 +7,10 @@ local TeleportSection = TeleportMain:NewSection("Teleports")
 
 
 --Buttons
+TeleportSection:NewButton("cave", "ButtonInfo", function()
+    	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(934.6703, -188.1975, 561.8464, -0.9986, 0, -0.0532, 0, 1, 0, 0.0532, 0, -0.9986)
+end)
+
 TeleportSection:NewButton("bunker outside", "ButtonInfo", function()
     	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(335.0155334472656, 302.1949462890625, 569.10693359375)
 end)
