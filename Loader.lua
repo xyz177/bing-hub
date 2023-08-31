@@ -7,6 +7,7 @@ Duration = 4;
 })
 wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/unofficial.lua"))()
+end
 
 if game.PlaceId == (12017032683) then
 wait(1.2)
@@ -17,6 +18,7 @@ Duration = 4;
 })
 wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/096.lua"))()
+end
 
 if game.PlaceId == (8482713490) then
 game.StarterGui:SetCore("SendNotification", {
