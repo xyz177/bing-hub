@@ -8,7 +8,7 @@ Duration = 4;
 wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/unofficial.lua"))()
 
-elseif game.PlaceId == (12017032683) then
+if game.PlaceId == (12017032683) then
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Bing Hub";
@@ -18,7 +18,7 @@ Duration = 4;
 wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/096.lua"))()
 
-elseif game.PlaceId == (8482713490) then
+if game.PlaceId == (8482713490) then
 game.StarterGui:SetCore("SendNotification", {
 Title = "Bing Hub";
 Text = "Forgotten Memories";
@@ -28,7 +28,7 @@ wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/Forgotten-Memories/main.lua"))()
 end
 
-elseif game.PlaceId == (12828227139) then
+if game.PlaceId == (12828227139) then
 game.StarterGui:SetCore("SendNotification", {
 Title = "Bing Hub";
 Text = "War Machines";
