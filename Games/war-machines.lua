@@ -79,3 +79,7 @@ end)
 Tab2Section:NewButton("unnamed esp","esp",function()
 pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))() end)
 end)
+
+Tab2Section:NewKeybind("UI Key", "key", Enum.KeyCode.x, function()
+	Library:ToggleUI()
+end)
