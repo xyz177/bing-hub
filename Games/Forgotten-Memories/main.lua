@@ -13,7 +13,7 @@ MainSection:NewButton("tp", "", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/Forgotten-Memories/tp.lua"))()
 end)
 
-MainSection:NewButton("block marionette", "", function()
+MainSection:NewButton("block marionette (doesnt work on new map)", "", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/Forgotten-Memories/block-marionette.lua"))()
 end)
 
