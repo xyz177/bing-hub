@@ -49,3 +49,13 @@ Duration = 4;
 wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/hide-n-seek-extreme.lua"))()
 end
+
+if game.PlaceId == (7540891731) then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Bing Hub";
+Text = "Red Light, Green Light";
+Duration = 4;
+})
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/red-light-green-light.lua"))()
+end
