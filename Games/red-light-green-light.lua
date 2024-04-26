@@ -15,6 +15,10 @@ MainSection:NewButton("Become Guard", "yes", function()
         game:GetService("ReplicatedStorage").GuardRemotes.BecomeGuard:InvokeServer(true)
 end)
 
+MainSection:NewKeybind("UI Key", "key", Enum.KeyCode.X, function()
+	Library:ToggleUI()
+end)
+
 
 
 
