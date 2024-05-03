@@ -112,13 +112,14 @@ MiscSection:NewSlider("JumpPower", "Changes how fast you jump", 250, 16, functio
 end)
 
 MiscSection:NewButton("ctrl click tp", "ctrl click tp", function()
-	local Plr = game:GetService("Players").LocalPlayer
-	local Mouse = Plr:GetMouse()
+    local Plr = game:GetService("Players").LocalPlayer
+    local Mouse = Plr:GetMouse()
 
-	Mouse.Button1Down:connect(function()
-	if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then return end
-	if not Mouse.Target then return end
-	Plr.Character:MoveTo(Mouse.Hit.p)
+    Mouse.Button1Down:connect(function()
+    if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then return end
+    if not Mouse.Target then return end
+    Plr.Character:MoveTo(Mouse.Hit.p)
+  end)
 end)
 
 MiscSection:NewButton("Infinite Yield", "admin", function()
