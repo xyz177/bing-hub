@@ -111,6 +111,20 @@ MiscSection:NewSlider("JumpPower", "Changes how fast you jump", 250, 16, functio
 	game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
+MiscSection:NewButton("ctrl click tp", "ctrl click tp", function()
+	local Plr = game:GetService("Players").LocalPlayer
+	local Mouse = Plr:GetMouse()
+
+	Mouse.Button1Down:connect(function()
+	if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then return end
+	if not Mouse.Target then return end
+	Plr.Character:MoveTo(Mouse.Hit.p)
+end)
+
+MiscSection:NewButton("Infinite Yield", "admin", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
 MiscSection:NewButton("Infinite Jump", "Lets you jump infinitely ", function()
 	local InfiniteJumpEnabled = true
 	game:GetService("UserInputService").JumpRequest:connect(function()
