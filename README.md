@@ -13,3 +13,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/
 - [War Machines](https://www.roblox.com/games/12828227139/)
 - [Hide and Seek Extreme](https://www.roblox.com/games/205224386/)
 - [Red Light, Green Light](https://www.roblox.com/games/7540891731/)
+- [Pilfering Pirates](https://www.roblox.com/games/6104994594/)
