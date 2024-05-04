@@ -79,3 +79,13 @@ Duration = 4;
 wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/pilfering-pirates.lua"))()
 end
+
+if game.PlaceId == (4623386862) then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Bing Hub";
+Text = "Piggy";
+Duration = 4;
+})
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/piggy.lua"))()
+end
