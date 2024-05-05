@@ -89,3 +89,13 @@ Duration = 4;
 wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/piggy.lua"))()
 end
+
+if game.PlaceId == (893973440) then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Bing Hub";
+Text = "Flee The Facility";
+Duration = 4;
+})
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/flee-the-facility.lua"))()
+end
