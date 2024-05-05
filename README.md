@@ -15,3 +15,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/
 - [Red Light, Green Light](https://www.roblox.com/games/7540891731/)
 - [Pilfering Pirates](https://www.roblox.com/games/6104994594/)
 - [Piggy](https://www.roblox.com/games/4623386862/)
+- [Flee The Facility](https://www.roblox.com/games/893973440/)
