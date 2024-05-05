@@ -1,8 +1,8 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Bing Hub ~Hide And Seek Extreme~",
-   LoadingTitle = "Bing Hub ~Hide And Seek Extreme~",
+   Name = "~Hide And Seek Extreme~ | Bing Hub",
+   LoadingTitle = "~Hide And Seek Extreme~ | Bing Hub",
    LoadingSubtitle = "by Joe",
 })
 
