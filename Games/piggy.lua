@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("bing chilling | Piggy", "GrapeTheme")
+local Window = Library.CreateLib("Piggy | Bing Hub", "GrapeTheme")
 
 -- Main
 local Main = Window:NewTab("Main")
