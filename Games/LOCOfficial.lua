@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("bing chilling | LOCOfficial", "GrapeTheme")
+local Window = Library.CreateLib("LOCOfficial | Bing Hub", "GrapeTheme")
 
 --Main
 
