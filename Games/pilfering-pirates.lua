@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("bing chilling | Pilfering Pirates", "GrapeTheme")
+local Window = Library.CreateLib("Pilfering Pirates | Bing Hub", "GrapeTheme")
 
 -- Classic Tab
 
