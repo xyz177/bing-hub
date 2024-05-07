@@ -99,3 +99,13 @@ Duration = 4;
 wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/flee-the-facility.lua"))()
 end
+
+if game.PlaceId == (648362523) then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Bing Hub";
+Text = "Breaking Point";
+Duration = 4;
+})
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/breaking-point.lua"))()
+end
