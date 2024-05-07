@@ -16,3 +16,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/
 - [Pilfering Pirates](https://www.roblox.com/games/6104994594/)
 - [Piggy](https://www.roblox.com/games/4623386862/)
 - [Flee The Facility](https://www.roblox.com/games/893973440/)
+- [Breaking Point](https://www.roblox.com/games/648362523/)
