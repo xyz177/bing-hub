@@ -4,7 +4,7 @@ local Window = Library.CreateLib("Pilfering Pirates | Bing Hub", "GrapeTheme")
 -- Classic Tab
 
 local ClassicTab = Window:NewTab("Classic")
-local ClassicSection = ClassicTab:NewSection("Classic")
+local ClassicSection = ClassicTab:NewSection("tp from above")
 
 ClassicSection:NewButton("Red Ship", "Teleports you to the Red Ship", function()
 	game:GetService("Players").LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(game:GetService("Workspace").Map.Ships.Red.MegaBombDropPart.Position)
@@ -20,6 +20,24 @@ end)
 
 ClassicSection:NewButton("Yellow Ship", "Teleports you to the Yellow Ship", function()
 	game:GetService("Players").LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(game:GetService("Workspace").Map.Ships.Yellow.MegaBombDropPart.Position)	
+end)
+
+local ClassicSection2 = ClassicTab:NewSection("tp from below")
+
+ClassicSection2:NewButton("Yellow Ship", "", function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(131, 253, 163)	
+end)
+
+ClassicSection2:NewButton("Green Ship", "", function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(124, 253, -221)
+end)
+
+ClassicSection2:NewButton("Red Ship", "", function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-68, 254, -40)
+end)
+
+ClassicSection2:NewButton("Blue Ship", "", function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(319, 253, -30)
 end)
 
 
