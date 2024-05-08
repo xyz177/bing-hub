@@ -109,3 +109,13 @@ Duration = 4;
 wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/breaking-point.lua"))()
 end
+
+if game.PlaceId == (142823291) then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Bing Hub";
+Text = "Murder Mystery 2";
+Duration = 4;
+})
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/mm2.lua"))()
+end
