@@ -17,3 +17,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/
 - [Piggy](https://www.roblox.com/games/4623386862/)
 - [Flee The Facility](https://www.roblox.com/games/893973440/)
 - [Breaking Point](https://www.roblox.com/games/648362523/)
+- [Murder Mystery 2](https://www.roblox.com/games/142823291/)
