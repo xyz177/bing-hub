@@ -17,10 +17,21 @@ end)
 MainSection:NewButton("Amentes Key = mTAgLLFQJazwRWGh", "ButtonInfo", function()
 end)
 
-Section:NewButton("inf yield", "ButtonInfo", function()
+MainSection:NewButton("inf yield", "ButtonInfo", function()
   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
-MainSection:NewKeybind("UI Key", "KeybindInfo", Enum.KeyCode.x, function()
+MainSection:NewKeybind("UI Key", "KeybindInfo", Enum.KeyCode.X, function()
 	Library:ToggleUI()
+end)
+
+local PlayerTab = Window:NewTab("Player")
+local PlayerSection = PlayerTab:NewSection("Player")
+
+PlayerSection:NewTextBox("WalkSpeed", "default is 16", function(txt)
+  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt	
+end)
+
+PlayerSection:NewTextBox("JumpPower", "default is 50", function(txt)
+  game.Players.LocalPlayer.Character.Humanoid.JumpPower = txt
 end)
