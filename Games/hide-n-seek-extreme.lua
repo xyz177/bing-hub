@@ -1,76 +1,28 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Hide and Seek Extreme | Bing Hub", "GrapeTheme")
 
-local Window = Rayfield:CreateWindow({
-   Name = "~Hide And Seek Extreme~ | Bing Hub",
-   LoadingTitle = "~Hide And Seek Extreme~ | Bing Hub",
-   LoadingSubtitle = "by Joe",
-})
+local MainTab = Window:NewTab("Main")
+local MainSection = MainTab:NewSection("Main")
 
---Main Tab
-local MainTab = Window:CreateTab("Main", nil)
-local MainSection = MainTab:CreateSection("Main")
+MainSection:NewButton("ESP (gui)", "", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/Hide%20and%20Seek%20Extreme/hide-n-seek-extreme-esp-gui.lua"))()
+end)
 
-Rayfield:Notify({
-   Title = "bing loaded",
-   Content = "bong",
-   Duration = 5,
-   Image = nil,
-   Actions = { -- Notification Buttons
-      Ignore = {
-         Name = "ok",
-         Callback = function()
-         print("Bing Hub Loaded")
-      end
-   },
-},
-})
+MainSection:NewButton("inf yield", "", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
 
-local Button = MainTab:CreateButton({
-   Name = "ESP (gui)",
-   Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/roblox-scripts/main/hide-n-seek-extreme-espgui.lua"))()
-   end,
-})
+MainSection:NewKeybind("UI Key", "KeybindInfo", Enum.KeyCode.X, function()
+	Library:ToggleUI()
+end)
 
-local Button = MainTab:CreateButton({
-   Name = "load inf yield",
-   Callback = function()
-       loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-   end,
-})
+local PlayerTab = Windows:NewTab("Player")
+local PlayerSection = PlayerTab:NewSection("Player")
 
-local Button = MainTab:CreateButton({
-   Name = "load unamed esp",
-   Callback = function()
-       loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))()
-   end,
-})
+PlayerSection:NewTextBox("Walkspeed", "default is 16", function(txt)
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
+end)
 
-
-
--- Other Section
-local OtherSection = MainTab:CreateSection("Others")
-
-local Slider = MainTab:CreateSlider({
-   Name = "Walkspeed",
-   Range = {16, 500},
-   Increment = 1,
-   Suffix = "Speed",
-   CurrentValue = 16,
-   Flag = "Slider1",
-   Callback = function(s)
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-   end,
-})
-
-local Slider = MainTab:CreateSlider({
-   Name = "Jumpower",
-   Range = {50, 500},
-   Increment = 1,
-   Suffix = "Jump",
-   CurrentValue = 50,
-   Flag = "Slider1",
-   Callback = function(j)
-        game.Players.LocalPlayer.Character.Humanoid.JumpPower = j
-   end,
-})
+PlayerSection:NewTextBox("Jumppower", "default is 50", function(txt)
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = txt
+end)
