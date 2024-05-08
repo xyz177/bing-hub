@@ -6,6 +6,11 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Loader.lua"))()
 ```
 
+Universal
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Universal.lua"))()
+```
+
 ### Supported Games
 - [LOCOfficial](https://www.roblox.com/games/8571687919/)
 - [Forgotten Memories](https://www.roblox.com/games/8482713490/)
