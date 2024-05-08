@@ -1,5 +1,6 @@
 # Bing Hub
 
+- ***A Script Hub where I compile scripts I find.***
 - ***Bing Hub is still in beta stage of development so expect some bugs or lack of features.***
 
 ```lua
@@ -23,3 +24,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/
 - [Flee The Facility](https://www.roblox.com/games/893973440/)
 - [Breaking Point](https://www.roblox.com/games/648362523/)
 - [Murder Mystery 2](https://www.roblox.com/games/142823291/)
+- [Epic Minigames](https://www.roblox.com/games/277751860)
+- [Hide & Sneak](https://www.roblox.com/games/13157638696/)
