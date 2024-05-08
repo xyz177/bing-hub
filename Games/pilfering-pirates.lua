@@ -22,24 +22,6 @@ ClassicSection:NewButton("Yellow Ship", "Teleports you to the Yellow Ship", func
 	game:GetService("Players").LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(game:GetService("Workspace").Map.Ships.Yellow.MegaBombDropPart.Position)	
 end)
 
-local ClassicSection2 = ClassicTab:NewSection("tp from below")
-
-ClassicSection2:NewButton("Yellow Ship", "", function()
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(131, 253, 163)	
-end)
-
-ClassicSection2:NewButton("Green Ship", "", function()
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(124, 253, -221)
-end)
-
-ClassicSection2:NewButton("Red Ship", "", function()
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-68, 254, -40)
-end)
-
-ClassicSection2:NewButton("Blue Ship", "", function()
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(319, 253, -30)
-end)
-
 
 
 -- KOTH Tab
@@ -69,10 +51,10 @@ end)
 
 
 
--- Mega Ships
+-- Mega Ships 1
 
 local MegaShipsTab = Window:NewTab("Mega Ships")
-local MegaShipsSection = MegaShipsTab:NewSection("Mega Ships")
+local MegaShipsSection = MegaShipsTab:NewSection("Mega Ships (Red/Blue)")
 
 MegaShipsSection:NewButton("Red Mega Ship", "Teleports you to the Red Mega Ship", function()
 	game:GetService("Players").LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(game:GetService("Workspace").Map2.Ships.Red.MegaBombDropPart.Position)
@@ -81,6 +63,8 @@ end)
 MegaShipsSection:NewButton("Blue Mega Ship", "Teleports you to the Blue Mega Ship", function()
 	game:GetService("Players").LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(game:GetService("Workspace").Map2.Ships.Blue.MegaBombDropPart.Position)
 end)
+
+
 
 
 
