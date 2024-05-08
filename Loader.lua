@@ -119,3 +119,23 @@ Duration = 4;
 wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/mm2.lua"))()
 end
+
+if game.PlaceId == (277751860) then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Bing Hub";
+Text = "Epic Minigames";
+Duration = 4;
+})
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/epicminigames.lua"))()
+end
+
+if game.PlaceId == (13157638696) then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Bing Hub";
+Text = "Hide & Sneak";
+Duration = 4;
+})
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/hideandsneak.lua"))()
+end
