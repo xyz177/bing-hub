@@ -16,7 +16,7 @@ MainSection:NewKeybind("UI Key", "KeybindInfo", Enum.KeyCode.X, function()
 	Library:ToggleUI()
 end)
 
-local PlayerTab = Windows:NewTab("Player")
+local PlayerTab = Window:NewTab("Player")
 local PlayerSection = PlayerTab:NewSection("Player")
 
 PlayerSection:NewTextBox("Walkspeed", "default is 16", function(txt)
