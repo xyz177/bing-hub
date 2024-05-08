@@ -22,7 +22,7 @@ ClassicSection:NewButton("Yellow Ship", "Teleports you to the Yellow Ship", func
 	game:GetService("Players").LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(game:GetService("Workspace").Map.Ships.Yellow.MegaBombDropPart.Position)	
 end)
 
-local ClassicSection2 = ClassicTab:NewSection("tp from below")
+local ClassicSection2 = ClassicTab:NewSection("tp from below (buggy)")
 
 ClassicSection2:NewButton("Yellow Ship", "", function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(131, 253, 163)	
