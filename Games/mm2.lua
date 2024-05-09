@@ -15,6 +15,7 @@ MainSection:NewButton("Amentes Gui", "ButtonInfo", function()
 end)
 
 MainSection:NewButton("Amentes Key = mTAgLLFQJazwRWGh", "ButtonInfo", function()
+  setclipboard("mTAgLLFQJazwRWGh")
 end)
 
 MainSection:NewButton("inf yield", "ButtonInfo", function()
