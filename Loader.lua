@@ -60,7 +60,7 @@ wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/red-light-green-light.lua"))()
 end
 
-if game.PlaceId == (7577073048) then
+if game.PlaceId == (7540891731) or game.PlaceId == (7577073048) then
 game.StarterGui:SetCore("SendNotification", {
 Title = "Bing Hub";
 Text = "Red Light, Green Light";
