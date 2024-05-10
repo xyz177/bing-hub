@@ -12,6 +12,10 @@ MainSection:NewButton("check green balloon","yes" ,function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/NDS/ballooncheck.lua"))()
 end)
 
+MainSection:NewButton("anti fling","yes" ,function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/antifling.lua"))()
+end)
+
 MainSection:NewButton("ctrl click tp", "ctrl click tp", function()
     local Plr = game:GetService("Players").LocalPlayer
     local Mouse = Plr:GetMouse()
