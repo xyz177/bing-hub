@@ -139,3 +139,13 @@ Duration = 4;
 wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/hideandsneak.lua"))()
 end
+
+if game.PlaceId == (189707) then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Bing Hub";
+Text = "Natural Disaster Survival";
+Duration = 4;
+})
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/NDS.lua"))()
+end
