@@ -149,3 +149,13 @@ Duration = 4;
 wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/NDS.lua"))()
 end
+
+if game.PlaceId == (8939045894) or game.PlaceId == (12545349775) then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Bing Hub";
+Text = "The Intruder";
+Duration = 4;
+})
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/intruder.lua"))()
+end
