@@ -27,3 +27,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/
 - [Epic Minigames](https://www.roblox.com/games/277751860)
 - [Hide & Sneak](https://www.roblox.com/games/13157638696/)
 - [Natural Disaster Survival](https://www.roblox.com/games/189707/)
+- [The Intruder](https://www.roblox.com/games/8073154099/)
