@@ -159,3 +159,13 @@ Duration = 4;
 wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/intruder.lua"))()
 end
+
+if game.PlaceId == (6161235818) or game.PlaceId == (12545349775) then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Bing Hub";
+Text = "Twisted";
+Duration = 4;
+})
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/twisted.lua"))()
+end
