@@ -11,6 +11,23 @@ MainSection:NewButton("CarSpeed", "yes", function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/Twisted/car-speed.lua"))()
 end)
 
+MainSection:NewButton("Stop The Car", "yes", function()
+	if not velocityEnabled then
+		return
+	end
+	local Character = LocalPlayer.Character
+	if Character and typeof(Character) == "Instance" then
+		local Humanoid = Character:FindFirstChildWhichIsA("Humanoid")
+		if Humanoid and typeof(Humanoid) == "Instance" then
+			local SeatPart = Humanoid.SeatPart
+			if SeatPart and typeof(SeatPart) == "Instance" and SeatPart:IsA("VehicleSeat") then
+				SeatPart.AssemblyLinearVelocity *= Vector3.new(0, 0, 0)
+				SeatPart.AssemblyAngularVelocity *= Vector3.new(0, 0, 0)
+			end
+		end
+	end
+end)
+
 MainSection:NewButton("infinite yield", "yes", function()
   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() 
 end)
