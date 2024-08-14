@@ -40,6 +40,6 @@ MainSection:NewButton("ctrl click tp", "yes", function()
   loadstring(game:HttpGet('https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/Twisted/ctrlclicktp.lua'))() 
 end)
 
-MainSection:NewKeybind("UI Key", "key", Enum.KeyCode.X, function()
+MainSection:NewKeybind("UI Key", "key", Enum.KeyCode.RightBracket, function()
 	Library:ToggleUI()
 end)
