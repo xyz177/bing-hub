@@ -3,6 +3,9 @@
 - ***A Script Hub where I compile scripts I find.***
 - ***Bing Hub is still in beta stage of development so expect some bugs or lack of features.***
 
+> [!CAUTION]
+> ***This hub is discontinued for now, as I dont have time to add or fix stuff***
+
 Main Script
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Loader.lua"))()
