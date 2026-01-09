@@ -8,7 +8,7 @@ local MainSection = Main:NewSection("Main")
 
 --Buttons
 MainSection:NewButton("CarSpeed", "yes", function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/Twisted/car-speed.lua"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Universal-Car-Speed(RIPS)(loadstring).lua"))()
 end)
 
 MainSection:NewButton("Stop The Car", "yes", function()
