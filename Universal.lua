@@ -35,7 +35,21 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "fates admin",
    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "dex v4 (secured)",
+   Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/xyz177/roblox-scripts/refs/heads/main/dex%20v4%20(securedex).txt'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "dex++",
+   Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/xyz177/roblox-scripts/refs/heads/main/dex%2B%2B.txt'))()
    end,
 })
 
