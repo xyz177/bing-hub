@@ -2,12 +2,12 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "bing chilling | Universal",
-   LoadingTitle = "bing chilling hub",
-   LoadingSubtitle = "by John",
+   Name = "bing hub | Universal",
+   LoadingTitle = "bing hub",
+   LoadingSubtitle = "by xyz",
    ConfigurationSaving = {
       Enabled = false,
-      FolderName = true, -- Create a custom folder for your hub/game
+      FolderName = false, -- Create a custom folder for your hub/game
       FileName = "bing chilling hub"
    },
 })
