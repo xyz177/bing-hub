@@ -1,17 +1,16 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Twisted | Bing Hub", "GrapeTheme")
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/archive/refs/heads/main/ui-libs/mobilefriendlyui.lua"))()
+local Window = Library.Window("Twisted | Bing Hub")
 
 --Main
 
-local Main = Window:NewTab("Main")
-local MainSection = Main:NewSection("Main")
+local MainTab = Window:NewTab("Main")
 
 --Buttons
-MainSection:NewButton("CarSpeed", "yes", function()
+MainTab:Button("CarSpeed", function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/Twisted/car-speed.lua"))()
 end)
 
-MainSection:NewButton("Stop The Car", "yes", function()
+MainTab:Button("Stop The Car", function()
 	if not velocityEnabled then
 		return
 	end
@@ -28,18 +27,18 @@ MainSection:NewButton("Stop The Car", "yes", function()
 	end
 end)
 
-MainSection:NewButton("infinite yield", "yes", function()
+MainTab:Button("infinite yield", function()
   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() 
 end)
 
-MainSection:NewButton("fullbright", "yes", function()
+MainTab:Button("fullbright", function()
   loadstring(game:HttpGet('https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/Twisted/fullbright.lua'))() 
 end)
 
-MainSection:NewButton("ctrl click tp", "yes", function()
+MainTab:Button("ctrl click tp", function()
   loadstring(game:HttpGet('https://raw.githubusercontent.com/xyz177/bing-hub/main/Games/Twisted/ctrlclicktp.lua'))() 
 end)
 
-MainSection:NewKeybind("UI Key", "key", Enum.KeyCode.RightBracket, function()
+MainTab:Keybind("UI Key", "key", Enum.KeyCode.RightBracket, function()
 	Library:ToggleUI()
 end)
